@@ -1,0 +1,266 @@
+*{margin: 0; padding:0;}
+
+body{
+	background-color: rgb(255,255,255);
+
+}
+nav{
+	text-align: right;
+	width: 100%;	
+	padding: 15px;
+	box-sizing: border-box;
+
+
+}
+header, img{
+	width: 100%;
+	height:550px;
+}
+
+article{
+	width: 100%;
+	background-color: #;
+	padding: 30px;
+	box-sizing: border-box;
+}
+a{
+	font-family: Josefin Sans, avenir, sans-serif;
+	font-size: 1.4rem;
+	color: #60a292;
+	text-align:right;
+	text-decoration: none;
+	margin-right: 30px;
+}
+.a-menu:hover,.a-menu:active{
+	color: #f3c081
+}
+.a-menu:alink,.a-menu:visited{
+	color: yellow;
+}	
+
+h1{
+ 	font-family: Josefin Sans,avenir, sans-serif; 
+	font-size: 7rem;
+	color: #f3c081;
+	opacity: 30%;
+	text-align:center;
+	padding: 8px;
+	margin-top: 30px;
+	margin-left:700px;
+
+}
+
+h2{
+	font-family: Josefin Sans,avenir, sans-serif;
+	font-size:  3rem;
+	color: #60a292;
+	text-align:center;
+
+	margin:0px, 
+}
+
+p{
+	font-family:Josefin Sans, avenir, sans-serif;
+	font-size: 1.2rem; 
+	color: gray;
+	background-color: white;
+	text-align: justify;
+	letter-spacing: 3px;
+	margin-left:200px; 
+	padding: 30px;
+	width: 900px;
+	line-height: 30px; 
+	box-sizing: border-box;
+}
+
+
+h3{
+	font-family: Josefin Sans,avenir, sans-serif;
+	font-size: 1.5rem;
+	color: #f3c081;
+	text-align:center;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+h4{
+	font-family: Josefin Sans, avenir, sans-serif;
+	font-size: 1.2rem;
+	color: gray;
+	text-align:center;
+	padding: 10px;
+	margin-top: 10px;
+}
+section{
+	padding: 20px;
+}
+.img-produto{
+	width: 200px;
+	height: 200px;
+	align-content: center;
+}
+
+#Vantagens{
+	background-color: red;
+
+}
+
+#container1{
+	display: flex;
+}
+.card{
+	text-align: center;
+	background-color: white;
+	padding: 40px;
+	margin: 0 auto;
+	border-radius: 0px;
+	box-shadow:1px 2px 3px #666;
+	transition: 0.8;
+	margin-bottom:60px;
+	width: 350px;
+	height: 240px;
+	margin-top: 30px;
+
+}
+.card:hover{
+	box-shadow:1px 8px 10px #666; 
+}
+
+#Produtos{
+	background-color: ;
+}
+#Encomendas{
+	padding: 20px;
+	text-align: left;
+}
+#container-formulario{
+display: flex;
+}
+
+footer a{
+	font-family:Josefin Sans, avenir, sans-serif;
+	font-size: 1.2rem; 
+}
+
+/*pagina de encomendas*/
+
+
+#Encomendas h3{
+	width: 420px;
+	font-family: Josefin Sans,avenir, sans-serif;
+	font-size: 1.4rem;
+	color: #f3c081;
+	text-align:center;
+	padding: 20px;
+	margin-top: 30px;
+	margin: 0 auto;
+}
+
+#imoveis{
+	margin-right: 50px;
+	padding: 50px;
+	width: 100%;
+}
+
+#card3{
+	padding: 50px;
+	margin: 40px;
+
+}
+
+form{
+	width: 420px;
+	background-color: ;
+	margin: 0 auto;
+}
+input,select{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 15px;
+	padding-left: 15px;
+	box-sizing: border-box;
+	border: 2px solid #60a292; 
+	border-radius: 10px;
+	font: 1rem Josefin Sans, sans-serif;
+	color: gray;
+
+}
+label{
+	font: 1.1rem Josefin Sans, sans-serif;
+	color: gray;
+	margin-bottom: 15px;
+}
+fieldset{
+	margin-bottom: 10px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	border: 2px solid #60a292; 
+	border-radius: 10px;
+	font: 1.1rem Josefin Sans, sans-serif;
+	color: gray;
+	padding: 10px;
+}
+
+input[type="radio"]{
+	width: 15px;
+	height: 15px;
+	margin-left:20px;
+	padding: 10px;
+}
+
+legend{
+	margin-bottom: 4px;
+	padding: 10px;
+	box-sizing: border-box;
+	font: 1.1rem Josefin Sans, sans-serif;
+	color: gray;
+}
+textarea{
+	width: 420px;
+	height: 80px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	border: 2px solid #60a292; 
+	border-radius: 10px;
+}
+
+
+}
+#botoes{
+	display: flex;
+
+}
+input[type="submit"]{
+	padding:10px;
+	border: 2px solid #60a292; 
+	border-radius: 10px;
+	font: 1rem Josefin Sans, sans-serif;
+
+}
+
+input[type="reset"]{
+	margin-bottom: 100px;
+	border: 0px solid #60a292; 
+	border-radius: 10px;
+	font: 1rem Josefin Sans, sans-serif;
+	color: red;
+}
+footer a{
+	text-align: center;
+	background-color: #60a292;
+	padding: 5px;
+	color: white;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+footer p{
+	text-align: center;
+	background-color: #60a292;
+	padding: 5px;
+	color: white;
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 100%;
+
+}
